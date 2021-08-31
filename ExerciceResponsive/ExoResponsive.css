@@ -1,0 +1,60 @@
+@media screen and (max-width : 300px) {
+    body{ 
+        background-color: red;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+    #small{
+        visibility: visible;
+    }
+    #medium{
+        visibility: hidden;
+        
+    }
+    #large{
+        visibility: hidden;
+        
+    }
+}
+@media screen and (max-width : 768px) {
+    body{
+        background-color: green;
+        font-size: 16px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #small{
+        visibility:hidden;
+        width: 66%;
+    }
+    #medium{
+        visibility: visible;
+        width: 33%;
+    }
+    #large{
+        visibility: hidden;
+        width: 100%;
+    }
+}
+@media screen and (min-width : 769px) {
+    body{
+        background-color: blue;
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+    div{
+
+    }
+    #small{
+        visibility:hidden;
+    }
+    #medium{
+        visibility: hidden;
+    }
+    #large{
+        visibility: visible;
+    }
+}
